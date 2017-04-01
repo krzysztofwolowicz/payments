@@ -13,9 +13,9 @@
 ActiveRecord::Schema.define(version: 20170331140149) do
 
   create_table "purchases", force: :cascade do |t|
-    t.string   "emails"
-    t.integer  "amound"
-    t.string   "decription"
+    t.string   "email"
+    t.integer  "amount"
+    t.string   "description"
     t.string   "currency"
     t.string   "customer_id"
     t.string   "card"
